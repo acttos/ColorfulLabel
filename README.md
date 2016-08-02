@@ -6,7 +6,7 @@
 经过导师们的指点，我觉得有必要将遇到的啼笑皆非的一些故事通过代码的方式展现出来，以期与有缘人共勉。
 
 
-## Introduction
+# Introduction
 
 ColorfulLabel是一个完整的Xcode工程，直接打开即可查看内部代码；
 
@@ -17,6 +17,6 @@ ColorfulLabel是一个完整的Xcode工程，直接打开即可查看内部代�
 
 代码中前半部分为“初级方案”，后半部分为常见解决方案，“初级方案”仅供娱乐，请以常见的解决方案为参考。
 
-## Copyright
+# Copyright
 
 基于[GPL(General Public License)](http://www.gnu.org/licenses/gpl.html)协议开源。
