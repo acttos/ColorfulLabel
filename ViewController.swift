@@ -39,16 +39,16 @@ class ViewController: UIViewController {
         let redLabelFrame = CGRect(x: 0, y: 0, width: containerView.bounds.width / 2, height: 20);
         let redLabel:UILabel = UILabel(frame: redLabelFrame);
         redLabel.text = "RED";
-        redLabel.textColor = UIColor.redColor();
-        redLabel.textAlignment = NSTextAlignment.Right;
+        redLabel.textColor = UIColor.red;
+        redLabel.textAlignment = NSTextAlignment.right;
         
         containerView.addSubview(redLabel);
         
         let blueLabelFrame = CGRect(x: containerView.bounds.width / 2, y: 0, width: containerView.bounds.width / 2, height: 20);
         let blueLabel:UILabel = UILabel(frame: blueLabelFrame);
         blueLabel.text = " BLUE";
-        blueLabel.textColor = UIColor.blueColor();
-        blueLabel.textAlignment = NSTextAlignment.Left;
+        blueLabel.textColor = UIColor.blue;
+        blueLabel.textAlignment = NSTextAlignment.left;
         
         containerView.addSubview(blueLabel);
         
@@ -63,13 +63,13 @@ class ViewController: UIViewController {
      */
     func initColorfulLabelOfMentor() -> UILabel {
         let str:NSMutableAttributedString = NSMutableAttributedString(string: "RED BLUE");
-        str.addAttribute(NSForegroundColorAttributeName, value: UIColor.redColor(), range: NSMakeRange(0, 3));
-        str.addAttribute(NSForegroundColorAttributeName, value: UIColor.blueColor(), range: NSMakeRange(4, 4));
+        str.addAttribute(NSForegroundColorAttributeName, value: UIColor.red, range: NSMakeRange(0, 3));
+        str.addAttribute(NSForegroundColorAttributeName, value: UIColor.blue, range: NSMakeRange(4, 4));
         
         let labelFrame = CGRect(x: 0, y: 140, width: self.view.bounds.width, height: 20);
         let label:UILabel = UILabel(frame: labelFrame);
         label.attributedText = str;
-        label.textAlignment = NSTextAlignment.Center;
+        label.textAlignment = NSTextAlignment.center;
         
         
         return label;
@@ -88,8 +88,8 @@ class ViewController: UIViewController {
         let lowerLabelFrame = CGRect(x: 1, y: 1, width: self.view.bounds.width, height: 20);
         let lowerLabel:UILabel = UILabel(frame: lowerLabelFrame);
         lowerLabel.text = "LABEL WITH SHADOW";
-        lowerLabel.textColor = UIColor.blueColor();
-        lowerLabel.textAlignment = NSTextAlignment.Center;
+        lowerLabel.textColor = UIColor.blue;
+        lowerLabel.textAlignment = NSTextAlignment.center;
         
         containerView.addSubview(lowerLabel);
         
@@ -97,8 +97,8 @@ class ViewController: UIViewController {
         let upperLabelFrame = CGRect(x: 0, y: 0, width: self.view.bounds.width, height: 20);
         let upperLabel:UILabel = UILabel(frame: upperLabelFrame);
         upperLabel.text = "LABEL WITH SHADOW";
-        upperLabel.textColor = UIColor.redColor();
-        upperLabel.textAlignment = NSTextAlignment.Center;
+        upperLabel.textColor = UIColor.red;
+        upperLabel.textAlignment = NSTextAlignment.center;
         
         containerView.addSubview(upperLabel);
         
@@ -116,10 +116,10 @@ class ViewController: UIViewController {
         let labelFrame = CGRect(x: 0, y: 220, width: self.view.bounds.width, height: 20);
         let label:UILabel = UILabel(frame: labelFrame);
         label.text = "LABEL WITH SHADOW";
-        label.textColor = UIColor.redColor();
-        label.shadowColor = UIColor.blueColor();
+        label.textColor = UIColor.red;
+        label.shadowColor = UIColor.blue;
         label.shadowOffset = CGSize(width: 1, height: 1);
-        label.textAlignment = NSTextAlignment.Center;
+        label.textAlignment = NSTextAlignment.center;
         
         
         return label;

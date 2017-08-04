@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7D11A5951D5090B4003697CC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D11A5941D5090B4003697CC /* AppDelegate.swift */; };
-		7D11A5971D5090B4003697CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D11A5961D5090B4003697CC /* ViewController.swift */; };
-		7D11A59A1D5090B4003697CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D11A5981D5090B4003697CC /* Main.storyboard */; };
-		7D11A59C1D5090B4003697CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D11A59B1D5090B4003697CC /* Assets.xcassets */; };
-		7D11A59F1D5090B4003697CC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D11A59D1D5090B4003697CC /* LaunchScreen.storyboard */; };
 		7D11A5AA1D5090B4003697CC /* ColorfulLabelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D11A5A91D5090B4003697CC /* ColorfulLabelTests.swift */; };
 		7D11A5B51D5090B4003697CC /* ColorfulLabelUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D11A5B41D5090B4003697CC /* ColorfulLabelUITests.swift */; };
+		7D30B33C1F344B63002470B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7D30B33B1F344B63002470B4 /* Assets.xcassets */; };
+		7D30B3401F344B7B002470B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D30B33F1F344B7B002470B4 /* AppDelegate.swift */; };
+		7D30B3421F344B82002470B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D30B3411F344B82002470B4 /* ViewController.swift */; };
+		7D30B3441F347B2A002470B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D30B3431F347B2A002470B4 /* Main.storyboard */; };
+		7D30B3461F347B39002470B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7D30B3451F347B39002470B4 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,18 +35,18 @@
 
 /* Begin PBXFileReference section */
 		7D11A5911D5090B4003697CC /* ColorfulLabel.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColorfulLabel.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7D11A5941D5090B4003697CC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7D11A5961D5090B4003697CC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7D11A5991D5090B4003697CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7D11A59B1D5090B4003697CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7D11A59E1D5090B4003697CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7D11A5A01D5090B4003697CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D11A5A51D5090B4003697CC /* ColorfulLabelTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorfulLabelTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D11A5A91D5090B4003697CC /* ColorfulLabelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorfulLabelTests.swift; sourceTree = "<group>"; };
 		7D11A5AB1D5090B4003697CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D11A5B01D5090B4003697CC /* ColorfulLabelUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorfulLabelUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D11A5B41D5090B4003697CC /* ColorfulLabelUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorfulLabelUITests.swift; sourceTree = "<group>"; };
 		7D11A5B61D5090B4003697CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7D30B33B1F344B63002470B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = SOURCE_ROOT; };
+		7D30B33D1F344B6F002470B4 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = SOURCE_ROOT; };
+		7D30B33F1F344B7B002470B4 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = SOURCE_ROOT; };
+		7D30B3411F344B82002470B4 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = SOURCE_ROOT; };
+		7D30B3431F347B2A002470B4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		7D30B3451F347B39002470B4 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +97,12 @@
 		7D11A5931D5090B4003697CC /* ColorfulLabel */ = {
 			isa = PBXGroup;
 			children = (
-				7D11A5941D5090B4003697CC /* AppDelegate.swift */,
-				7D11A5961D5090B4003697CC /* ViewController.swift */,
-				7D11A5981D5090B4003697CC /* Main.storyboard */,
-				7D11A59B1D5090B4003697CC /* Assets.xcassets */,
-				7D11A59D1D5090B4003697CC /* LaunchScreen.storyboard */,
-				7D11A5A01D5090B4003697CC /* Info.plist */,
+				7D30B33F1F344B7B002470B4 /* AppDelegate.swift */,
+				7D30B3411F344B82002470B4 /* ViewController.swift */,
+				7D30B3431F347B2A002470B4 /* Main.storyboard */,
+				7D30B33B1F344B63002470B4 /* Assets.xcassets */,
+				7D30B3451F347B39002470B4 /* LaunchScreen.storyboard */,
+				7D30B33D1F344B6F002470B4 /* Info.plist */,
 			);
 			path = ColorfulLabel;
 			sourceTree = "<group>";
@@ -188,21 +188,24 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0730;
+				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = Personal;
 				TargetAttributes = {
 					7D11A5901D5090B4003697CC = {
 						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = AXTCK4AA86;
+						DevelopmentTeam = TD37V5LBM9;
+						LastSwiftMigration = 0830;
 					};
 					7D11A5A41D5090B4003697CC = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = AXTCK4AA86;
+						LastSwiftMigration = 0830;
 						TestTargetID = 7D11A5901D5090B4003697CC;
 					};
 					7D11A5AF1D5090B4003697CC = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = AXTCK4AA86;
+						LastSwiftMigration = 0830;
 						TestTargetID = 7D11A5901D5090B4003697CC;
 					};
 				};
@@ -232,9 +235,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D11A59F1D5090B4003697CC /* LaunchScreen.storyboard in Resources */,
-				7D11A59C1D5090B4003697CC /* Assets.xcassets in Resources */,
-				7D11A59A1D5090B4003697CC /* Main.storyboard in Resources */,
+				7D30B3461F347B39002470B4 /* LaunchScreen.storyboard in Resources */,
+				7D30B3441F347B2A002470B4 /* Main.storyboard in Resources */,
+				7D30B33C1F344B63002470B4 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +262,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7D11A5971D5090B4003697CC /* ViewController.swift in Sources */,
-				7D11A5951D5090B4003697CC /* AppDelegate.swift in Sources */,
+				7D30B3401F344B7B002470B4 /* AppDelegate.swift in Sources */,
+				7D30B3421F344B82002470B4 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -295,25 +298,6 @@
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		7D11A5981D5090B4003697CC /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7D11A5991D5090B4003697CC /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		7D11A59D1D5090B4003697CC /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				7D11A59E1D5090B4003697CC /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
 		7D11A5B71D5090B4003697CC /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -329,8 +313,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -374,8 +360,10 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
@@ -394,6 +382,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -402,10 +391,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = ColorfulLabel/Info.plist;
+				DEVELOPMENT_TEAM = TD37V5LBM9;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.majinshou.ColorfulLabel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -413,10 +404,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = ColorfulLabel/Info.plist;
+				DEVELOPMENT_TEAM = TD37V5LBM9;
+				INFOPLIST_FILE = "$(SRCROOT)/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.majinshou.ColorfulLabel;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -428,6 +421,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.majinshou.ColorfulLabelTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorfulLabel.app/ColorfulLabel";
 			};
 			name = Debug;
@@ -440,6 +434,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.majinshou.ColorfulLabelTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColorfulLabel.app/ColorfulLabel";
 			};
 			name = Release;
@@ -451,6 +446,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.majinshou.ColorfulLabelUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = ColorfulLabel;
 			};
 			name = Debug;
@@ -462,6 +458,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.majinshou.ColorfulLabelUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
 				TEST_TARGET_NAME = ColorfulLabel;
 			};
 			name = Release;
@@ -485,6 +482,7 @@
 				7D11A5BB1D5090B4003697CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7D11A5BC1D5090B4003697CC /* Build configuration list for PBXNativeTarget "ColorfulLabelTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +491,7 @@
 				7D11A5BE1D5090B4003697CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		7D11A5BF1D5090B4003697CC /* Build configuration list for PBXNativeTarget "ColorfulLabelUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,6 +500,7 @@
 				7D11A5C11D5090B4003697CC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
